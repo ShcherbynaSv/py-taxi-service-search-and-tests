@@ -73,7 +73,7 @@ class ModelsTests(TestCase):
         driver = get_user_model().objects.create_user(
             username="driver_test",
             password="12345test",
-            license_number="LIC123456"
+            license_number="LIC12345"
         )
         car.drivers.add(driver)
 
